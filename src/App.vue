@@ -8,11 +8,14 @@
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Georgia;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
+}
+
+body {
+  margin: 5px 10px;
 }
 
 nav {
@@ -26,5 +29,13 @@ nav {
       color: #42b983;
     }
   }
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 48px;
 }
 </style>

@@ -1,0 +1,25 @@
+[
+    {
+        "name":"portfolio",
+        "imgFolder":"portfolio",
+        "img":"logo.png",
+        "description":"ceci est mon portfolio"
+    },
+    {
+        "name":"demo LB22",
+        "imgFolder":"lyonLb22",
+        "img":"mainLb22.png",
+        "description":"ceci est un test",
+        "paragraphs": [
+            {
+                "description":"paragraph 1"
+            },
+            {
+                "description":"paragraph2"
+            },
+            {
+                "description":"paragraph3"
+            }
+        ]
+    }
+]
