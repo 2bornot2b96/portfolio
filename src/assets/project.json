@@ -1,24 +1,35 @@
 [
     {
-        "name":"portfolio",
-        "imgFolder":"portfolio",
-        "img":"logo.png",
-        "description":"ceci est mon portfolio"
-    },
-    {
-        "name":"demo LB22",
-        "imgFolder":"lyonLb22",
-        "img":"mainLb22.png",
-        "description":"ceci est un test",
+        "name": "portfolio",
+        "imgFolder": "portfolio",
+        "img": "logo.png",
+        "description": "ceci est mon portfolio",
         "paragraphs": [
             {
-                "description":"paragraph 1"
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien ipsum, tempor eget ante vel, hendrerit faucibus dolor. Suspendisse at faucibus nunc. Nulla porta at nibh sed finibus. Vestibulum posuere fringilla consequat. Aenean suscipit, arcu vel ornare pellentesque, est neque venenatis erat, rhoncus commodo lorem leo et tortor. Vestibulum velit purus, facilisis ut dui sit amet, elementum fringilla orci. Etiam ligula metus, blandit eu dui at, suscipit sagittis nulla. Maecenas scelerisque orci tincidunt dignissim finibus. Suspendisse rutrum nulla purus, id efficitur felis rhoncus in. Maecenas dapibus ipsum a justo eleifend, nec pretium nisl mollis. Pellentesque faucibus erat nec tortor consectetur, at maximus risus tincidunt. Nunc dictum lorem sed neque blandit, quis lacinia ex tincidunt. Praesent sed varius purus, in finibus ex."
             },
             {
-                "description":"paragraph2"
+                "description": "Praesent sit amet massa et lorem tincidunt consequat. Fusce massa urna, congue non vehicula ut, convallis quis arcu. Nunc aliquam, lacus et feugiat rutrum, diam urna vehicula velit, eget gravida nibh neque sit amet arcu. Nunc accumsan leo eu vestibulum aliquet. Fusce efficitur finibus diam et dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque at ipsum at ligula interdum faucibus vel sed lorem. Aenean gravida maximus purus non volutpat. Mauris vehicula sit amet nunc vitae efficitur."
+            }
+        ]
+    },
+    {
+        "name": "demo LB22",
+        "imgFolder": "lyonLb22",
+        "img": "mainLb22.png",
+        "description": "ceci est un test",
+        "paragraphs": [
+            {
+                "img": "mainLb22.png",
+                "description": "Praesent sit amet massa et lorem tincidunt consequat. Fusce massa urna, congue non vehicula ut, convallis quis arcu. Nunc aliquam, lacus et feugiat rutrum, diam urna vehicula velit, eget gravida nibh neque sit amet arcu. Nunc accumsan leo eu vestibulum aliquet. Fusce efficitur finibus diam et dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque at ipsum at ligula interdum faucibus vel sed lorem. Aenean gravida maximus purus non volutpat. Mauris vehicula sit amet nunc vitae efficitur."
             },
             {
-                "description":"paragraph3"
+                "img": "userSelect.png",
+                "description": "Praesent sit amet massa et lorem tincidunt consequat. Fusce massa urna, congue non vehicula ut, convallis quis arcu. Nunc aliquam, lacus et feugiat rutrum, diam urna vehicula velit, eget gravida nibh neque sit amet arcu. Nunc accumsan leo eu vestibulum aliquet. Fusce efficitur finibus diam et dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque at ipsum at ligula interdum faucibus vel sed lorem. Aenean gravida maximus purus non volutpat. Mauris vehicula sit amet nunc vitae efficitur."
+            },
+            {
+                "img": "mandate.png",
+                "description": "Praesent sit amet massa et lorem tincidunt consequat. Fusce massa urna, congue non vehicula ut, convallis quis arcu. Nunc aliquam, lacus et feugiat rutrum, diam urna vehicula velit, eget gravida nibh neque sit amet arcu. Nunc accumsan leo eu vestibulum aliquet. Fusce efficitur finibus diam et dapibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque at ipsum at ligula interdum faucibus vel sed lorem. Aenean gravida maximus purus non volutpat. Mauris vehicula sit amet nunc vitae efficitur."
             }
         ]
     }

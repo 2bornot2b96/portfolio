@@ -1,13 +1,13 @@
 <template>
   <div class="home">
     <button v-if="projIndex!='home'" id="return-button" @click="changeIndex('home')">x</button>
-    <div v-if="projIndex=='home'" class="description">
+    <div v-if="projIndex=='home'" class="description fade-box">
       <h1>Cyril Adamo</h1>
       <p>Développeur web VueJs/Symfony</p>
     </div>
     <ProjectReview v-else :project="projects[projIndex]" class="description"></ProjectReview>
     <div class="project-review">
-      <button v-for="project, index in projects" :key="project" v-on:click="changeIndex(index)">
+      <button v-for="project, index in projects" :key="project" v-on:click="changeIndex(index)" class="fade-box">
         <img :src="require(`@/assets/image/${project.imgFolder}/${project.img}`)" class="thumbnail" alt="">
         <p>{{ project.name }}</p>
       </button>
