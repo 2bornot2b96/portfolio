@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import fadeServices from '@/services/fadeServices'
+
 export default {
   data () {
     return {
@@ -17,12 +19,7 @@ export default {
   },
 
   mounted () {
-    window.addEventListener('scroll', this.scrollFade)
-    document.addEventListener('click', this.scrollFade)
-  },
-
-  unmounted () {
-    window.removeEventListener('scroll', this.scrollFade)
+    fadeServices.newMutationObserver()
   },
 
   methods: {
@@ -82,7 +79,6 @@ p {
     transition: 1s;
     position: relative;
     bottom: 40px;
-    left: 40px;
     opacity: 0;
   }
   &-in {
@@ -96,7 +92,6 @@ p {
 
 .fade-box {
   position: relative;
-  bottom: 40px;
   left: 40px;
   opacity: 0;
   transition: 1s;
